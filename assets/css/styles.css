@@ -37,6 +37,7 @@ img {
 textarea {
 	resize: vertical;
 }
+
 /* ===============================================
    General styles
    ============================================== */
@@ -142,7 +143,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 h2 {
 	font-size: 36px;
-	color: #E89A2F;
+	color: #a36e57;
 }
 h3 {
 	font-size: 26px;
@@ -233,14 +234,14 @@ a:before, a:after {
 
 #headerwrap {
 	background: url(../img/header_bg.jpg) no-repeat center top;
-	margin-top: 100px;
-	/* padding-top: 120px;
-	padding-bottom: 120px; */
+	margin-top: 70px;
+	padding-top: 330px;
+	/* padding-bottom: 300px; */
 	text-align: center;
 	background-attachment: relative;
-	background-position: center center;
-	min-height: 50%;	
-	min-width: 50%;
+	background-position: top center;
+	/* min-height: 100%;	 */
+	min-width: 100%;
 	/* -webkit-background-size: 100%;
 	-moz-background-size: 100%;
 	-o-background-size: 100%;
@@ -249,6 +250,7 @@ a:before, a:after {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover; */
+	/* background-color: #1F1915; */
 }
 #headerwrap h1 {
 	color: #ffffff;
@@ -263,6 +265,14 @@ a:before, a:after {
 	font-weight: 300;
 	text-align: center;
 	letter-spacing: 1px;
+}
+
+#headerwrap .header-p {
+	color: #a36e57;
+	font-style: italic;
+	font-size: large;
+	text-align: center;
+	font-family: "Raleway";
 }
 #headerwrap .icon {
 	color: #ffffff;
